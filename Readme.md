@@ -1,7 +1,7 @@
 
 # redis-pubsub-pool
 
-Handles many subscriptions with one client and knows when it's save to unsubscribe.
+Smart subscription pooling for node-redis. Handles many subscriptions with one client and knows when it's save to unsubscribe.
 
 ## Example
 

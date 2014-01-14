@@ -1,6 +1,7 @@
 {
   "name": "redis-pubsub-pool",
   "version": "0.0.0",
+  "description": "Smart subscription pooling for node-redis",
   "repository": "juliangruber/redis-pubsub-pool",
   "devDependencies": {
     "redis": "*"
