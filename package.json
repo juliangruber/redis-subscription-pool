@@ -1,0 +1,8 @@
+{
+  "name": "redis-pubsub-pool",
+  "version": "0.0.0",
+  "repository": "juliangruber/redis-pubsub-pool",
+  "devDependencies": {
+    "redis": "*"
+  }
+}
