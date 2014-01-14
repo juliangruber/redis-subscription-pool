@@ -1,5 +1,5 @@
 
-# redis-pubsub-pool
+# redis-subscription-pool
 
 Smart subscription pooling for node-redis. Handles many subscriptions with one client and knows when it's save to unsubscribe.
 
@@ -7,7 +7,7 @@ Smart subscription pooling for node-redis. Handles many subscriptions with one c
 
 ```js
 var redis = require('redis');
-var Pool = require('redis-pubsub-pool');
+var Pool = require('redis-subscription-pool');
 
 var pub = redis.createClient();
 var sub = redis.createClient();
@@ -43,7 +43,7 @@ Subscribe `fn` to updates on `pattern`. Returns an `unbind` function that unbind
 ## Installation
 
 ```bash
-$ npm install redis-pubsubs-pool
+$ npm install redis-subscription-pool
 ```
 
 ## License
