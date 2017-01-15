@@ -4,6 +4,6 @@
   "description": "Smart subscription pooling for node-redis",
   "repository": "juliangruber/redis-subscription-pool",
   "devDependencies": {
-    "redis": "*"
+    "redis": ">=2.6.5"
   }
 }
